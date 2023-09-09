@@ -1,0 +1,144 @@
+/* body style properties */
+body{
+    background: url(pexels-lukas-628241.jpg) no-repeat center center fixed;
+    font-family: sans-serif;
+    padding: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Menu box style  */
+.menu{
+    width: 80%;
+    max-width: 600px;
+    background-color: rgb(254, 249, 249);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px;
+    border-radius: 7px;
+    opacity: 88%;
+}
+
+h1,h2,p{
+    text-align:center;
+}
+
+h1, h2{
+    font-family: Impact, serif;
+}
+
+/* Main Heading Style */
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: brown;
+}
+
+.established{
+    font-style: italic;
+}
+
+/* Sub-Heading Style */
+h2{
+    font-size: 30px;
+    color: rgb(221,73,45);
+}
+
+/*  Horizontal Line style */
+hr{
+    height: 2px;
+    background-color: rgb(71, 131, 0);
+    border-color: rgb(71, 131, 0);
+    min-width: 100%;
+}
+
+/* footer bottom horizontal line style */
+.bottom-line{
+    margin-top:25px;
+  }
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.snacks, .desserts{
+    text-align: left;
+    width: 75%;
+}
+.sprice{
+    text-align: right;
+    width: 25%;
+}
+
+/* Article Images */
+img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*  Footer link */
+a{
+    color: black;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: brown;
+}
+
+a:visited{
+ color: black;   
+}
+
+/*  Footer address */
+.address{
+    margin-bottom: 5px;
+    font-style: italic;
+    color: brown;
+    font-weight: 600;
+}
+
+/* media query style for small devices */
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)
+    h1{
+        font-size: 25px;
+        color:brown;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h2{
+        font-size: 20px;
+        color: rgb(221,73,45);
+        font-family: Georgia, 'Times New Roman', Times, serif;   
+    }
+    img{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin-top: -15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
